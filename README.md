@@ -9,7 +9,7 @@ CRM 上傳 Heroku
 
 > DATABASE
 
-    - PostgreSQL:
+    > PostgreSQL:
         https://www.postgresql.org/
     > PGAdmin
         https://www.pgadmin.org/
@@ -18,6 +18,12 @@ CRM 上傳 Heroku
         pip install psycopg2
     > 更改setting.py
         DATABASES
+
+> 解決ModuleNotFoundError: No module named 'psycopg2'
+
+    - https://pypi.org/project/psycopg2/#files
+    - 直接下載最新版本
+    - 解壓縮並將檔案複製到env/lib資料夾內
 
 
 
